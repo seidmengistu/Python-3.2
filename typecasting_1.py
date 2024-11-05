@@ -79,4 +79,6 @@ print(y)  # Output: 123
 
 x=123
 y=str(x)
+z=y+str(x)  # to add and subtract they must be same data type
+print(z)
 print(f"integer to string conversion {type(y)}")  
