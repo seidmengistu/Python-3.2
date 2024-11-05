@@ -61,7 +61,8 @@ Type casting in Python is the process of converting one data type into another. 
 
 ### Why Use Type Casting?
 
-Type casting is useful when you want to work with values in specific formats, or when converting user input (which is often a string) into the necessary data type for calculations or other operations.
+Type casting is useful when you want to work with values in specific formats, 
+or when converting user input (which is often a string) into the necessary data type for calculations or other operations.
 """
 x = 5  # integer
 y = float(x)  # cast to float
@@ -71,3 +72,11 @@ print(y)  # Output: 5.0
 x = 5.7  # float
 y = int(x)  # cast to integer (note: this truncates the decimal)
 print(y)  # Output: 5
+
+x = "123"  # string
+y = int(x)  # cast to integer
+print(y)  # Output: 123
+
+x=123
+y=str(x)
+print(f"integer to string conversion {type(y)}")  
