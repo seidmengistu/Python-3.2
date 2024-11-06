@@ -164,3 +164,5 @@ print ("even" if num%2==0 else "odd")
 
 print("Full Acess" if user_role=="Administrator" else " Limted Acess")
 
+
+## Seid Mengistu November 6 2024 ( America election day)
